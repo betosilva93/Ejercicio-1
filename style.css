@@ -1,6 +1,8 @@
 body{
 	margin: 0;
 	font-family: 'Amatic SC', cursive;
+	background: url('images/fondo.jpg')no-repeat center center fixed;
+	background-size: cover;
 }
 
 #wrapper{
@@ -8,7 +10,6 @@ body{
 	height: auto;
 	margin: 0 auto;
 	padding: 12px;
-	background: teal;
 	}
 
 #title{
@@ -42,7 +43,7 @@ body{
 	width: 200px;
 	height: 200px;
 	border-radius: 200px;
-	background: blue;
+	background: url('images/ll.jpg')no-repeat center center;
 
 }
 
@@ -50,7 +51,7 @@ body{
 	width: 200px;
 	height: 200px;
 	border-radius: 200px;
-	background: red;
+	background: url('images/bc.jpg')no-repeat center center;
 
 }
 
@@ -58,6 +59,6 @@ body{
 	width: 200px;
 	height: 200px;
 	border-radius: 200px;
-	background: yellow;
+	background: url('images/tf.jpg')no-repeat center center;
 
 }
