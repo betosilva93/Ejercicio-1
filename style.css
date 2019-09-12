@@ -1,35 +1,63 @@
 body{
-
+	margin: 0;
+	font-family: 'Amatic SC', cursive;
 }
 
 #wrapper{
 	width: 90%;
 	height: auto;
-	margin: 12px;
+	margin: 0 auto;
 	padding: 12px;
 	background: teal;
 	}
 
 #title{
-
+	font-size: 48px;
 }
 
 #perfumes{
-
+	width: 100%;
+	height: auto;
 }
 
 #one{
-
+	width: 31%;
+	display: inline-block;
+	padding: 12px;
 }
 
 #two{
-
+	width: 31%;
+	display: inline-block;
+	padding: 12px;
 }
 
 #three{
+	width: 31%;
+	display: inline-block;
+	padding: 12px;
+}
+
+#one .circle-image{
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	background: blue;
 
 }
 
-.circle-image{
+#two .circle-image{
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	background: red;
+
+}
+
+#three .circle-image{
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	background: yellow;
 
 }
